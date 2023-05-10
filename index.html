@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamic Price Setting</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./images/dps-logo1.svg" class="logo" alt="Company logo, navbar logo" width="50">
+            <h4 class="logo-text">Dynamic Price Setting</h4>
+        </div>
+        <nav>
+            <ul class="nav-items">
+                <li class="item"><a href="#project-details">Project Details</a></li>
+                <li class="item"><a href="#team">About Us</a></li>
+                <li class="item"><a href="documents.html">Documents</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <aside class="info-text">
+                <h1 class="header">Find the best price for your product!</h1>
+                <p class="subtext">
+                    DPS is an innovative solution that empowers businesses to maximize profits by predicting optimal selling prices for their products. By leveraging advanced technologies like LSTM and XGBoost, DPS learns from historical sales patterns, identifies hidden correlations, and accurately forecasts future demand. With DPS you are always one step ahead.
+                </p>
+                <a class="button-blue" href="#project-details">See Project Details</a>
+            </aside>
+            <figure>
+                <img src="./images/graph.png" alt="Top content image">
+            </figure>
+        </section>
+
+        <section class="popular" id="project-details">
+            <h1 class="header dark-header">Project Details</h1>
+
+
+            <p class="about-text">With online marketing being the primary shopping choice for most people, vendors are facing different problems. One of them is deciding a product's selling price. Vendors have many competitors on online marketing platforms, therefore they have to be smart about setting prices. If they set prices too high, they will fall behind their competitors and will not sell much; if they set them too low they will not make much profit. To find the optimal selling price, vendors need to use the prices of their competitors.
+
+                With <b>DPS (Dynamic Price Setting)</b>, we aim to provide a 
+                stand-alone rule-based dynamic price determination system 
+                for the chosen e-commerce product. It will use price and sale
+                 amount history provided by <b>STOCKMOUNT</b> and scraped from Trendyol
+                  and HepsiBurada to predict how much a product would sell if it 
+                  is sold at a price given by the user.</p>
+        </section>
+
+        <section class="popular">
+            <h1 class="header dark-header">Used Methods</h1>
+
+            <div class="methods">
+                <h3>Deep LSTM</h3>
+                <img src="images/model.png" alt="deep lstm" width="1000">
+            </div>
+
+            <div class="methods">
+                <h3>XGBoost</h3>
+                <img src="images/XGBoost.png" alt="xgboost" width="500">
+            </div>
+            
+        </section>
+
+
+        <section class="popular" id="team">
+            <h1 class="header dark-header">About Us</h1>
+            <ul class="popular-items">
+
+                <li class="item">
+                    <figure class="popular-image-container">
+                        <img src="./images/cano.jpeg" alt="Can Okulmuş" width="200">
+                        <figcaption class="instructor-info">
+                            <b>Can Okulmuş</b><br><small>DPS Member</small>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li class="item">
+                    <figure class="popular-image-container">
+                        <img src="./images/mert.jpeg" alt="Mert Başarır" width="200">
+                        <figcaption class="instructor-info">
+                            <b>Mert Başarır</b><br><small>DPS Member</small>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li class="item">
+                    <figure class="popular-image-container">
+                        <img src="./images/eray.jpeg" alt="Eray Erer" width="200">
+                        <figcaption class="instructor-info">
+                            <b>Eray Erer</b><br><small>DPS Member</small>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="item">
+                    <figure class="popular-image-container">
+                        <img src="./images/yusuf.jpeg" alt="Yusuf Çelik" width="200">
+                        <figcaption class="instructor-info">
+                            <b>Yusuf Çelik</b><br><small>DPS Member</small>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="item">
+                    <figure class="popular-image-container">
+                        <img src="./images/ersel.jpeg" alt="Ersel Hengirmen" width="200">
+                        <figcaption class="instructor-info">
+                            <b>Ersel Hengirmen</b><br><small>DPS Member</small>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+            <p class="about-text">We are five senior computer engineering students. We are the main developers and designers of the project but the proposal of DPS was made by our partner firm, Stock Mount, which focuses on developing software products and integrations for online sellers to ease their experience in online marketing and our academic advisor Prof. Dr Hakkı Toroslu who has experience in similar ML/DL projects.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright © 2023 &nbsp; &nbsp; | &nbsp; &nbsp; Dynamic Price Setting TEAM</p>
+    </footer>
+</body>
+
+</html>
